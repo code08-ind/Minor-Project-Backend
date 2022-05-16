@@ -1,0 +1,20 @@
+{
+  "name": "minor_project",
+  "version": "1.0.0",
+  "proxy": "http://localhost:5000",
+  "description": "Back End Of Minor Project Website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Aryan Garg",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5"
+  }
+}
